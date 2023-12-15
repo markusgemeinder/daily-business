@@ -8,10 +8,10 @@ const StyledLayout = styled.div`
 const Background = styled.div`
   position: fixed;
   inset: 0;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
-  filter: ${({ $isDimmed }) => ($isDimmed ? "brightness(70%)" : "none")};
-  transition: filter 1.2s;
+  filter: ${({ $isDimmed }) => ($isDimmed ? "brightness(10%)" : "none")};
+  transition: filter 1s;
 `;
 
 const StyledImage = styled(Image)`
@@ -27,6 +27,7 @@ const Content = styled.div`
 `;
 
 export default function Layout({ children, isDimmed }) {
+  console.log({ isDimmed });
   return (
     <StyledLayout>
       <Background $isDimmed={isDimmed}>
