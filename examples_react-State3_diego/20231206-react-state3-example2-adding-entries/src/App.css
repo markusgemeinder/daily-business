@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: black;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgb(223, 219, 219);
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: black;
+}
+
+.selected {
+  background-color: orange;
+}
+
+label,
+form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input {
+  background-color: white;
+  border: 0;
+  border-radius: 0.5rem;
+  line-height: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: black;
+}
