@@ -7,6 +7,9 @@ export default function HomePage() {
       <p>
         <Link href="/form">Form</Link>
       </p>
+      <p>
+        <Link href="/list">List</Link>
+      </p>
     </div>
   );
 }
