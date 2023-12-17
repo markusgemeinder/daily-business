@@ -1,15 +1,17 @@
 import { useState, useEffect } from "react";
 
 export default function List({ storedActivities }) {
+  console.log(storedActivities);
+  const activities = JSON.parse(storedActivities);
+
   return (
     <>
       <ul>
-        <li>Blablabla {storedActivities}</li>
-        {/* {books.map(({ ordinal, title }) => (
-          <li key={title}>
-            {ordinal}: <strong>{title}</strong>
+        {activities.map((activity) => (
+          <li key={activity.id}>
+            {activity.name} {activity.isForGoodWeather.toString()}
           </li>
-        ))} */}
+        ))}
       </ul>
     </>
   );

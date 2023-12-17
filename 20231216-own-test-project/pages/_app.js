@@ -24,7 +24,6 @@ export default function App({ Component, pageProps }) {
       : "[]";
 
   setStoredActivities(JSON.parse(initialStoredActivities));
-  // console.log(JSON.parse(initialStoredActivities));
 
   return (
     <>
