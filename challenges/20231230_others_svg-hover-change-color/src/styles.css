@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  margin: 40px;
+  fill: black;
+  transition: fill 0.2s ease-in-out;
+}
+.close:hover {
+  fill: green;
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+  transition: fill 0.2s ease-in-out;
+}
+svg:hover {
+  fill: green;
+}
+
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.icon-arrow {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/icon-arrow-black.svg);
+}
+
+.icon-arrow:hover {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/icon-arrow-red.svg);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>CSS Structure</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<header>
+		<h1>CSS Structure</h1>
+		<p>How does the selector precedence work?</p>
+	</header>
+	<nav>
+		<a href="#about">About</a>
+		<a href="#contact">Contact</a>
+		<a href="https://github.com/janedoe">Github</a>
+	</nav>
+	<main>
+		<section class="home-section important">
+			<h2>About</h2>
+			<p>blablah</p>
+		</section>
+		<section class="home-section">
+			<h2>Contact</h2>
+			<p>blablah</p>
+		</section>
+		<section class="home-section">
+			<h2>Skills</h2>
+			<p>blablah</p>
+			<ul class="skills">
+				<li>
+					<h3>Skill 1</h3>
+					<p>Bla</p>
+				</li>
+				<li>
+					<h3>Skill 2</h3>
+					<p>Bla</p>
+				</li>
+				<li>
+					<h3>Skill 3</h3>
+					<p>Bla</p>
+					<ul>
+						<li>not</li>
+						<li>affected</li>
+						<li>by <code>.skills&gt;li</code></li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		&copy; 2023 ACME
+	</footer>
+</body>
+
+</html>

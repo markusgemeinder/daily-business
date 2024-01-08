@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  font-family: "Courier New", Courier, monospace;
+  padding: 8px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: yellowgreen;
+}
+
+a {
+  color: green;
+  font-size: 1.5rem;
+}
+
+/* body.dark {
+  background-color: darkgray;
+} */
+
+main.dark {
+  background-color: darkolivegreen;
+  color: lightgoldenrodyellow;
+}
+
+button {
+  margin: 0 0 15px 0;
+}
