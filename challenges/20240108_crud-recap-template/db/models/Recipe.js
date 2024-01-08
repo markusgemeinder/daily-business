@@ -7,8 +7,12 @@ const recipeSchema = new Schema(
       type: String,
       required: true,
     },
-    directions: { type: Array, required: true },
+    image: {
+      type: String,
+      required: true,
+    },
     ingredients: { type: Array, required: true },
+    directions: { type: Array, required: true },
   },
   // add other needed fields here
   { timestamps: true }
